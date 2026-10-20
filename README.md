@@ -131,6 +131,3 @@ Daha yüksek sınır daha uzun sürebilir. `--decode-limit 0` yalnız doğrudan 
 
 Flaglens Base64/Base32/Base85, hex, URL/HTML/Unicode kaçışları, Morse, ROT/Caesar/Atbash/Affine, bazı XOR ve Vigenere denemeleri, JWT yükü ve metne dönüştürülmüş sıkıştırılmış veri gibi yöntemleri dener. Her şifrelemeyi otomatik çözmez; parola gerektiren güçlü kriptografi için doğru anahtar gerekir.
 
-## Yayın hazırlığı
-
-Bu README GitHub deposunun kökünde, şifreli arşivin dışında bulunmalıdır. ZIP'in içinde ise üst klasör, pyproject.toml, flaglens/ ve örnekler yer almalıdır. Arşivi parola korumalı ZIP olarak hazırlarken AES-256 seçin ve parolayı README'ye veya herkese açık dosyalara koymayın. Kaynak kodu şifresiz olarak aynı public depoya eklemek, arşiv parolasının amacını boşa çıkarır.
